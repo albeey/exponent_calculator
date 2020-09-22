@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exponent Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div class="title">
+            Exponent Calculator
+        </div>
+
+        <div class="input-boxes">
+            Base: <input type="number" id="base" placeholder="0">
+            Exponent: <input type="number" id="exponent" placeholder="0">
+        </div>
+
+        <div class="buttons">
+            <button id="calculateBttn">Calculate</button>
+            <button id="clearBttn">Clear</button>
+        </div>
+
+        <div class="result-area">
+            
+            <div class="operation"></div>
+
+            <div class="equals">=</div>
+
+            <div class="result"></div>
+        </div>
+        
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
